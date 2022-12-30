@@ -1,0 +1,30 @@
+.first,
+.second,
+.third {
+    height: 150px;
+    width: 150px;
+    margin: auto;
+    margin-bottom: 15px;
+    transition: all 2s ease-in;
+    
+    }
+
+.first {
+    background-color: red;
+}
+.first:hover{
+    width: 300px;
+}
+.second:hover{
+    height: 300px;
+}
+.second{
+    background-color:blue ;
+}
+.third{
+    background-color: green;
+}
+.third:hover{
+    height: 300px;
+    width: 300px;
+}
